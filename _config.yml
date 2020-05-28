@@ -13,13 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just the Class
-tagline: A Jekyll template for course websites
-description: A modern, highly customizable, responsive Jekyll template for course websites
+title: CSE 143
+tagline: Programming with Data Structures
+description: Computer Programming II, Autumn 2020
 author: Kevin Lin
-baseurl: '/courses/cseXXX/XXxx' # the subpath of your site, e.g. /blog
+baseurl: '/courses/cse143/20au' # the subpath of your site, e.g. /blog
 url: 'https://courses.cs.washington.edu' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+google_site_verification: 'QclY_1udbdKts462GzFHLmFoaioICIQ16kjZumjRJIg'
 
 # Theme settings
 remote_theme: pmarsceill/just-the-docs@v0.3.2
@@ -28,6 +29,8 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
+  Ed:
+    - 'https://us.edstem.org/courses/631/'
   Advising:
     - 'https://cs.washington.edu/academics/ugrad/advising'
   Feedback:
@@ -39,6 +42,12 @@ footer_content: 'Kevin Lin &copy; 2020 <a rel="license" href="http://creativecom
 collections:
   staffers:
   modules:
+  slides:
+    permalink: '/:path/'
+    output: true
+  lessons:
+    permalink: '/:path/'
+    output: true
 # Default layouts for each collection type
 defaults:
   - scope:
@@ -52,6 +61,24 @@ defaults:
       type: modules
     values:
       layout: module
+  - scope:
+      path: ''
+      type: slides
+    values:
+      layout: minimal
+      search_exclude: true
+  - scope:
+      path: ''
+      type: lessons
+    values:
+      layout: page
+# Configure collections for Just the Docs
+just_the_docs:
+  collections:
+    pages:
+      name: Information
+    lessons:
+      name: Lessons
 
 compress_html:
   clippings: all
