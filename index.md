@@ -17,6 +17,11 @@ seo:
 {{ staffer }}
 {% endfor %}
 
+{% assign overview = site.slides | where: "title", "Overview" | first %}
+{{ overview.content }}
+
+<small>[Read more...]({{ site.baseurl }}{% link about.md %})</small>
+
 {% for module in site.modules %}
 {{ module }}
 {% endfor %}
