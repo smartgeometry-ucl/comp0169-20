@@ -54,8 +54,8 @@ courseweb:
   script: /www/utils/deploycourseweb.sh
   cache: {}
   variables:
-    course: cseXXX
-    quarter: XXxx
+    course: cse143
+    quarter: 20au
     source_path: public
     GIT_STRATEGY: none
   only:
