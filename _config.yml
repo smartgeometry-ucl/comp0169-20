@@ -39,7 +39,6 @@ footer_content: 'Kevin Lin &copy; 2020 <a rel="license" href="http://creativecom
 collections:
   staffers:
   modules:
-  schedules:
 # Default layouts for each collection type
 defaults:
   - scope:
@@ -53,11 +52,6 @@ defaults:
       type: modules
     values:
       layout: module
-  - scope:
-      path: ''
-      type: schedules
-    values:
-      layout: schedule
 
 compress_html:
   clippings: all
