@@ -24,7 +24,9 @@ The wording is deliberate: the **list** concept is separate from the underlying 
 
 ArrayIntList data abstraction
 : The separation of the list concept (client view) from the underlying array (implementer view).
-: **Abstract data type (ADT)**: list concept.
-: **Data structure**: array.
+: **Abstract data type (ADT)**
+  : The concept of a list as an ordered sequence with operations such as `add`, `remove`, and `indexOf`.
+: **Data structure**
+  : The underlying array that the implementer must maintain so that the client can use `ArrayIntList` as a list.
 
-`ArrayIntList` is the Java class implementing the list abstract data type with the array data structure.
+`ArrayIntList` is a Java class that binds these two concepts: the list **abstract data type** that informs the client how to use the class and the array **data structure** that actually provides the behaviors for the class's public methods. Next, we'll introduce the idea of different abstract data types and see what happens. In the coming weeks, we'll see how (and why) we might also want to switch out the data structure too.
