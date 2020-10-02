@@ -8,7 +8,7 @@ So what's the difference between an `ArrayIntList` and a raw `int[]`? Lists disa
 1. Array elements can be stored at any index.
 1. Array size is fixed and cannot be changed after construction.
 
-These two features are part of what make arrays so useful as building blocks for programs. But they're also the source of inconvenience for client programmers as they now need to worry about the two issues that result from these features.
+These two features are part of what make arrays so useful as building blocks for programs. But they also inconvenience client programmers in two ways.
 
 1. Since array elements can be stored at any index, there can be empty indices between elements.
 1. Since array size is fixed, full arrays cannot store any more elements. (A larger array needs to be constructed, and all of the elements need to be copied over.)
