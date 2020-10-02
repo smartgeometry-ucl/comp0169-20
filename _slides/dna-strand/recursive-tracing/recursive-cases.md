@@ -1,6 +1,6 @@
 ---
-title: Case analysis
-nav_order: 1
+title: Recursive cases
+nav_order: 2
 ---
 
 Say we want to implement `writeStars`, a method that takes an integer `n` and prints out `n` asterisks `*` followed by a new line. We can solve this by defining an iterative algorithm.

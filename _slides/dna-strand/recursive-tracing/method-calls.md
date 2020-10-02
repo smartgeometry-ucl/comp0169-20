@@ -1,6 +1,6 @@
 ---
 title: Method calls
-nav_order: 2
+nav_order: 3
 ---
 
 A key learning objective for this lesson is to trace the execution of recursive algorithms, which requires an understanding of how to evaluate method calls. In Java, a **method** is a procedure that runs the code defined in its body. For example, consider this example program.
