@@ -16,8 +16,8 @@
 title: COMP0169 
 tagline: Machine Learning for Visual Computing
 description: COMP0169, Term 1 2020-21
-baseurl: 'comp0169-20.github.io/' # the subpath of your site, e.g. /blog
-url: 'https://smartgeometry-ucl.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://smartgeometry-ucl.github.io/comp0169-20.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
 # Theme settings
