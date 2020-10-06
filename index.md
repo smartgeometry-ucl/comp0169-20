@@ -1,10 +1,10 @@
 ---
 layout: home
-title: CSE 143
+title: COMP0169 
 nav_exclude: true
 seo:
   type: Course
-  name: Programming with Data Structures
+  name: Machine Learning for Visual Computing
 ---
 
 # {{ site.tagline }}
