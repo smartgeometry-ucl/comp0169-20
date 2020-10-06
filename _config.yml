@@ -16,8 +16,8 @@
 title: COMP0169 
 tagline: Machine Learning for Visual Computing
 description: COMP0169, Term 1 2020-21
-baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://smartgeometry-ucl.github.io/comp0169-20.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/comp0169-20.github.io' # the subpath of your site, e.g. /blog
+url: 'https://smartgeometry-ucl.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
 # Theme settings
@@ -28,7 +28,7 @@ heading_anchors: true
 permalink: pretty
 aux_links:
   Smart Geometry Processing Group:
-    - 'https://geometry.cs.ucl.ac.uk/'
+    - 'https://geometry.cs.ucl.ac.uk'
 aux_links_new_tab: true
 footer_content: 'Kevin Lin &copy; 2020 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>'
 
@@ -37,10 +37,10 @@ collections:
   staffers:
   modules:
   slides:
-    permalink: '/:path/'
+    permalink: ':path/'
     output: true
   lessons:
-    permalink: '/:path/'
+    permalink: ':path/'
     output: true
 # Default layouts for each collection type
 defaults:
