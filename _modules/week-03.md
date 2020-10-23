@@ -10,6 +10,10 @@ Oct 19
 : - [Video](https://youtu.be/smdbd5Q4oqo)
  - [Slides]({{ site.baseurl }}{% link assets/slides/CS0169_week03_classification.pptx %})
 
+Oct 21 
+: **Neural Networks**
+: - Video (Coming Soon)
+ - [Slides]({{ site.baseurl }}{% link assets/slides/CS0169_week03_neuralNets.pdf %})
 
 Oct 23 
 : **Lab**
