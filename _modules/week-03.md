@@ -11,4 +11,7 @@ Oct 19
  - [Slides]({{ site.baseurl }}{% link assets/slides/CS0169_week03_classification.pptx %})
 
 
+Oct 23 
+: **Lab**
+ - [Slides]({{ site.baseurl }}{% link assets/slides/CS0169_week03_lab.pptx %})
 {: .mt-2 .mb-2 }
