@@ -13,5 +13,6 @@ Oct 19
 
 Oct 23 
 : **Lab**
- - [Slides]({{ site.baseurl }}{% link assets/slides/CS0169_week03_lab.pptx %})
+ - [Code](https://github.com/smartgeometry-ucl/COMP0169-Machine-Learning-for-Visual-Computing-2020/tree/master/Week_3)
+ - [Slides]({{ site.baseurl }}{% link assets/slides/CS0169_week03_lab.pdf %})
 {: .mt-2 .mb-2 }
