@@ -12,7 +12,7 @@ Oct 19
 
 Oct 21 
 : **Neural Networks**
-: - Video (Coming Soon)
+: - [Video](https://youtu.be/oCoyq6gD3b4)
  - [Slides]({{ site.baseurl }}{% link assets/slides/CS0169_week03_neuralNets.pdf %})
 
 Oct 23 
